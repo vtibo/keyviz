@@ -114,7 +114,7 @@ export const AppearanceSettings = () => {
                     value={appearance.marginX}
                     onChange={marginLinked ? (marginX => { setAppearance({ marginX }); setAppearance({ marginY: marginX }); }) : (marginX => setAppearance({ marginX }))}
                     min={0}
-                    max={200}
+                    max={4000}
                     step={1}
                     icon={<span className="ml-0.5 text-xs font-medium">X</span>}
                     className="w-18"
@@ -136,7 +136,7 @@ export const AppearanceSettings = () => {
                     value={appearance.marginY}
                     onChange={(marginY) => setAppearance({ marginY })}
                     min={0}
-                    max={200}
+                    max={4000}
                     step={1}
                     icon={<span className="ml-0.5 text-xs font-medium">Y</span>}
                     className="w-18"

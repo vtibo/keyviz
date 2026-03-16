@@ -10,6 +10,10 @@
 
 Keyviz is a **free and open-source** tool that visualizes your keypresses and mouse actions in real-time. Let your audience know what handy shortcuts you're pressing during tutorials, presentations, collaborations, or whenever you need.
 
+## ⚠️⚠️ What changed in this fork ⚠️⚠️
+- Just change the margin X an Y max to 4000 instead of 200.
+- Added some instructions in the building section.
+
 ## ⌨️ Keypress & 🖱️ Mouse Actions
 Along with normal keys, you can also visualize mouse actions like <kbd>Cmd</kbd> + <kbd>Click</kbd>, <kbd>Alt</kbd> + <kbd>Drag</kbd>, etc.
 
@@ -53,6 +57,9 @@ Keyviz is compatible with Linux using the X11 protocol. Currently, you can try i
 ## 🛠️ Build Instructions
 
 If you want to contribute or build the latest features from the source, ensure you have [Node.js](https://nodejs.org/) and [Tauri](https://v2.tauri.app/start) set up on your system.
+
+** ⚠️⚠️ Windows Dependencies ⚠️⚠️ **
+Be sure to install rust (https://rust-lang.org/tools/install/) and to add the module **Desktop development with c++** in Visual Studio Installer, otherwise you will have the dlltool error.
 
 1.  **Clone the repository:**
     ```bash
